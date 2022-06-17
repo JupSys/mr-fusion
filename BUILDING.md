@@ -36,9 +36,12 @@ build.sh script if you change the amount of processor cores._
 
 Clone this repository on your machine and provision the virtual machine:
 
+You need vagrant installed, and the vagrant-disksize plugin:
+vagrant plugin install vagrant-disksize
+
 ```
 git clone https://github.com/MiSTer-devel/mr-fusion.git
-cd mr-fusion/build-vm
+# No longer needed: cd mr-fusion/build-vm
 vagrant up
 ```
 
